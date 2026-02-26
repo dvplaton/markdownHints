@@ -60,3 +60,14 @@ https://github.blog/developer-skills/github/include-diagrams-markdown-files-merm
       C-->D;
 ```
 
+----
+
+
+```mermaid
+graph LR;
+  untracked -- "git add" --> staged;
+  staged    -- "???"     --> tracked/comitted;
+
+%% стрелка без текста для примера: 
+  A --> B;
+```
