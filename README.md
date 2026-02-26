@@ -34,6 +34,8 @@ import java.util.ArrayList;
 import java.util.Scanner;
 
 public class Practicum {
+    
+}
 
 ```
 
@@ -44,3 +46,17 @@ public class Practicum {
 
 
 А тут начинается новый параграф
+
+
+----
+
+https://github.blog/developer-skills/github/include-diagrams-markdown-files-mermaid/
+
+```mermaid
+  graph TD;
+      A-->B;
+      A-->C;
+      B-->D;
+      C-->D;
+```
+
